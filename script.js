@@ -173,6 +173,8 @@ const menuItemsArabic = {
         "(meat / chicken / fish), grilled veggies, grilled potato.",
     "بطاطس مقلية" :"French Fries",
     "فردي":"single.",
+
+    
     // Drinks
     "بيبسي كبير": "Pepsi big",
     "بيبسي صغير": "Pepsi small",
@@ -184,6 +186,7 @@ const menuItemsArabic = {
     "ريد بُل": "Red Bull",
     "لبن عيران": "Laban Airan",
     "ماء": "Water",
+    "مستر جوسي":"Mr. Juicy",
     "عادي / دايت":"regular / diet"
 };
 
