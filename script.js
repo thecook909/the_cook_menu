@@ -192,6 +192,7 @@ const menuItemsArabic = {
     "بوم بوم": "Boom Boom",
     "ريد بُل": "Red Bull",
     "لبن عيران": "Laban Airan",
+    "مستر جوسي":"Mr. Juicy",
     "ماء": "Water",
     "عادي / دايت":"regular / diet"
 };
