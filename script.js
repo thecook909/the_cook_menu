@@ -64,6 +64,8 @@ const menuItems = {
     "Tawook Sandwich": "ساندويتش طاووق",
     "coleslaw / garlic paste, french fries, pickles.":
     "سلطة ملفوف بالمايونيز / معجون ثوم، بطاطس مقلية، مخللات.",
+    "Cheese Tawook Sandwich":"ساندويتش طاووق بالجبن",
+    "cheese, coleslaw / garlic paste, french fries, pickles.":"جبنة، كولسلو / ثوم مهروس، بطاطا مقلية، مخللات",
     "Escalob Sandwich":"ساندويتش اسكالوب",
     "coleslaw,french fries, pickles, ketchup, mayonaise.":"سلطة ملفوف بالمايونيز ، بطاطا مقلية، مخللات، كاتشب، مايونيز",
     "Fish Sandwich":"ساندويتش سمك",
@@ -146,6 +148,8 @@ const menuItemsArabic = {
     "ساندويتش طاووق": "Tawook Sandwich",
     "سلطة ملفوف بالمايونيز / معجون ثوم، بطاطس مقلية، مخللات.":
         "coleslaw / garlic paste, french fries, pickles.",
+    "ساندويتش طاووق بالجبن":"Cheese Tawook Sandwich",
+    "جبنة، كولسلو / ثوم مهروس، بطاطا مقلية، مخللات":"cheese, coleslaw / garlic paste, french fries, pickles.",
     "ساندويتش اسكالوب":"Escalob Sandwich",
     "سلطة ملفوف بالمايونيز ، بطاطا مقلية، مخللات، كاتشب، مايونيز":
         "coleslaw,french fries, pickles, ketchup, mayonaise.",
