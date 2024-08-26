@@ -228,7 +228,7 @@ document.getElementById('translate-button').addEventListener('click', function()
 // Unit price functions from $ ==> lira
 
 
-const conversionRate = 89000; // Example rate: 1 USD = 89,000 LBP
+const conversionRate = 90000; // Example rate: 1 USD = 90,000 LBP
 
 function convertPrices(targetCurrency) {
     const prices = document.querySelectorAll('.item-price');
