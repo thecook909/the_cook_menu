@@ -39,6 +39,13 @@ const menuItems = {
     "Sandwiches": "ساندويتشات",
     "Plates": "أطباق",
     "Drinks": "مشروبات",
+
+    // The CooK is cooking
+    "Chicken Sandwich":"ساندويتش دجاج",
+    "Chicken Plate":"صحن دجاج",
+    "Meat Sandwich":"ساندويتش لحم",
+    "Meat Plate":"صحن لحم",
+    "eggs, lettuce, cheese, tomato, The CooK's sauce, mayonnaise.":"بيض، خس، جبنة، طماطم، صلصة ذا كوك، مايونيز",
     
     // Burgers
     "Classic Burger": "برجر كلاسيكي",
@@ -66,7 +73,7 @@ const menuItems = {
     "سلطة ملفوف بالمايونيز / معجون ثوم، بطاطس مقلية، مخللات.",
     "Cheese Tawook Sandwich":"ساندويتش طاووق بالجبن",
     "cheese, coleslaw / garlic paste, french fries, pickles.":"جبنة، كولسلو / ثوم مهروس، بطاطا مقلية، مخللات",
-    "Escalob Sandwich":"ساندويتش اسكالوب",
+    "Escalope Sandwich":"ساندويتش اسكالوب",
     "coleslaw,french fries, pickles, ketchup, mayonaise.":"سلطة ملفوف بالمايونيز ، بطاطا مقلية، مخللات، كاتشب، مايونيز",
     "Fish Sandwich":"ساندويتش سمك",
     "fish fillet,french fries, lettuce, pickles, tarator.":"فيليه سمك، بطاطس مقلية، خس، مخلل، طحينة بالثوم",
@@ -125,6 +132,13 @@ const menuItemsArabic = {
     "ساندويتشات": "Sandwiches",
     "أطباق": "Plates",
     "مشروبات": "Drinks",
+
+    // The CooK is cooking
+    "ساندويتش دجاج":"Chicken Sandwich",
+    "صحن دجاج":"Chicken Plate",
+    "ساندويتش لحم":"Meat Sandwich",
+    "صحن لحم":"Meat Plate",
+    "بيض، خس، جبنة، طماطم، صلصة ذا كوك، مايونيز":"eggs, lettuce, cheese, tomato, The CooK's sauce, mayonnaise.",
     
     // Burgers
     "برجر كلاسيكي": "Classic Burger",
@@ -152,7 +166,7 @@ const menuItemsArabic = {
         "coleslaw / garlic paste, french fries, pickles.",
     "ساندويتش طاووق بالجبن":"Cheese Tawook Sandwich",
     "جبنة، كولسلو / ثوم مهروس، بطاطا مقلية، مخللات":"cheese, coleslaw / garlic paste, french fries, pickles.",
-    "ساندويتش اسكالوب":"Escalob Sandwich",
+    "ساندويتش اسكالوب":"Escalope Sandwich",
     "سلطة ملفوف بالمايونيز ، بطاطا مقلية، مخللات، كاتشب، مايونيز":
         "coleslaw,french fries, pickles, ketchup, mayonaise.",
     "ساندويتش سمك":"Fish Sandwich",
