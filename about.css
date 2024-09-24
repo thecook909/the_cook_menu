@@ -27,12 +27,12 @@ h2 {
 nav {
     background-color: #333;
     text-align: center;
-    padding: 3px;
+    padding: 17px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
     list-style-type: none;
-    /* margin: auto; */
+    margin: auto;
     justify-content: center;
     width: 100%;
 }
