@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cook Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+
+        .header {
+            list-style-type: none;
+            padding:10px ;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            width: 220px;
+        }
+
+        .header li {
+            display: inline-block;
+            margin-right: 15px;
+            padding: 10px;
+        }
+        
+        .header li:hover {
+            background-color: #504f4f;
+            border-radius: 6px;
+        }
+        
+        .header li a {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-size: 17px;
+            padding: 10px 15px;
+            transition: color 0.3s ease;
+        }
+
+        .header li a:hover {
+            color: #ffcc00;
+        }        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Cook Menu</h1>
+    </header>
+    
+    <nav>
+        <header class="header">
+            <li>
+                <a href="about.html" >About Us</a>
+            </li>
+        </header>
+        <button id="menu-toggle">Menu</button>
+        <ul id="menu-list">
+            <li><a class="menu-options" href="#the-cook">The CooK is cooking</a></li>
+            <li><a class="menu-options" href="#burgers">Burgers</a></li>
+            <li><a class="menu-options" href="#sandwiches">Sandwiches</a></li>
+            <li><a class="menu-options" href="#plates">Plates</a></li>
+            <li><a class="menu-options" href="#drinks">Drinks</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        
+        
+        <!-- translation currency button -->
+        <div class="fab-container">
+            <button class="fab-button">+</button>
+            <div class="fab-options">
+                <button class="fab-option" id="translate-button">للعربية اضغط هنا</button>
+                <button class="fab-option" id="price-toggle">Switch to USD</button>
+            </div>
+        </div>
+        
+        <!-- whatsapp code -->
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+         <a href="https://wa.me/0096176318398" class="whatsapp-link" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        
+
+        <!-- The CooK -->
+        <section id="the-cook">
+            <h2>The CooK is cooking</h2>
+            <ul>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="The CooK Chicken Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">The CooK Chicken Sandwich</span>
+                            <span class="item-price" data-original-price="765000">765000 LBP</span>
+                            <p class="item-description">tortilla wrap, eggs, mushroom, lettuce, cheese, tomato, The CooK's sauce, mayonnaise.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="The CooK Beef Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">The CooK Beef Sandwich</span>
+                            <span class="item-price" data-original-price="855000">855000 LBP</span>
+                            <p class="item-description">tortilla wrap, eggs, mushroom, lettuce, cheese, tomato, The CooK's sauce, mayonnaise.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>        
+
+        
+        <!-- Burgers -->
+        <section id="burgers">
+            <h2>Burgers</h2>
+            <ul>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Classic Burger">
+                        <div class="item-details">
+                            <span class="item-name">Classic Burger</span>
+                            <span class="item-price" data-original-price="450000">450000 LBP</span>
+                            <p class="item-description">coleslaw, french fries, pickles, ketchup, mustard.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Cheese Burger">
+                        <div class="item-details">
+                            <span class="item-name">Cheese Burger</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">mozzarella and chedder slice, mushroom, onion, lettuce / coleslaw, shoe string chips, pickles, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                      <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Double Burger">
+                        <div class="item-details">
+                            <span class="item-name">Double Burger</span>
+                            <span class="item-price" data-original-price="585000">585000 LBP</span>
+                            <p class="item-description">double burger, mushroom, onion, lettuce / coleslaw, shoe string chips, pickles, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Double Cheese Burger">
+                        <div class="item-details">
+                            <span class="item-name">Double Cheese Burger</span>
+                            <span class="item-price" data-original-price="675000">675000 LBP</span>
+                            <p class="item-description">double burger, extra mozzarella and chedder slice, lettuce / coleslaw, shoe string chips, pickles, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Burger Sujuk">
+                        <div class="item-details">
+                            <span class="item-name">Burger Sujuk (Spicy)</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">french fries, cheese, tomato, pickles, garlic paste.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Burger Kafta">
+                        <div class="item-details">
+                            <span class="item-name">Burger Kafta</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">french fries, tomato, lettuce, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Burger Kabab">
+                        <div class="item-details">
+                            <span class="item-name">Burger Kabab</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">french fries, pickles, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>        
+
+
+        <!-- Sandwiches -->
+        <section id="sandwiches">
+            <h2>Sandwiches</h2>
+            <ul>
+<!--                 <li>
+                    <div class="item-container">
+                        <img src="ID front.jpg" alt="Sandwich The CooK">
+                        <div class="item-details">
+                            <span class="item-name">The CooK Sandwich</span>
+                            <span class="item-price"></span>
+                            <p class="item-description">caviar, avocado, cheese, rokka, lemon, in baguette.</p>
+                        </div>
+                    </div>
+                </li> -->
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/fajita 2.jpg" alt="Fajita Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Fajita Sandwich</span>
+                            <span class="item-price" data-original-price="550000">550000 LBP</span>
+                            <p class="item-description">chicken, mozzarella cheese, onion, mushroom, pickles, pepper(green / yellow / red).</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/philadelphia 2.jpg" alt="Philadelphia Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Philadelphia Sandwich</span>
+                            <span class="item-price" data-original-price="675000">675000 LBP</span>
+                            <p class="item-description">meat, mozzarella cheese, onion, mushroom, pickles, pepper(green / yellow / red).</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/tawook 1.jpg" alt="Tawook Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Tawook Sandwich</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">coleslaw / garlic paste, french fries, pickles.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt=" cheese Tawook Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Cheese Tawook Sandwich</span>
+                            <span class="item-price" data-original-price="600000">600000 LBP</span>
+                            <p class="item-description">cheese, coleslaw / garlic paste, french fries, pickles.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Escalope Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Escalope Sandwich</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">coleslaw,french fries, pickles, ketchup, mayonaise.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Crispy Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Crispy Sandwich</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">two kinds of cheese, lettuce, sweet corn, pickles, the CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Beef Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Beef Sandwich</span>
+                            <span class="item-price" data-original-price="730000">730000 LBP</span>
+                            <p class="item-description">tortilla bread, french fries, mushrrom, pickles, cheese, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Chicken Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Chicken Sandwich</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">french fries, pickles, garlic paste, The CooK sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/fish sandwich 1 copy.jpg" alt="Fish Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Fish Sandwich</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">fish fillet,french fries, lettuce, pickles, tarator.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Chicken Sub Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">Chicken Sub Sandwich</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">lettuce, pickles, sweet corn, the CooK's sauce, garlic paste, mayonnaise</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/batata.jpg" alt="Batata Sandwich">
+                        <div class="item-details">
+                            <span class="item-name">French Fries Sandwich</span>
+                            <span class="item-price" data-original-price="300000">300000 LBP</span>
+                            <p class="item-description">coleslaw, pickles, ketchup, garlic paste.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+
+        <!-- Plates -->
+        <section id="plates">
+            <h2>Plates</h2>
+            <ul>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/Steak Plate latest.jpg" alt="Steak Plate">
+                        <div class="item-details">
+                            <span class="item-name">Fillet Steak Plate</span>
+                            <span class="item-price" data-original-price="1530000">1530000 LBP</span>
+                            <p class="item-description">fillet steak on hot chilli bread, grilled veggies, grilled potato /  french fries, pickles, mushroom sauce, sauces.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/chicken plate latest.jpg" alt="Chicken Plate">
+                        <div class="item-details">
+                            <span class="item-name" >Chicken Plate</span>
+                            <span class="item-price" data-original-price="990000">990000 LBP</span>
+                            <p class="item-description">chicken breast, grilled veggies, grilled potato / french fries, coleslaw, pickles, sauce, garlic paste.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Escalope Plate">
+                        <div class="item-details">
+                            <span class="item-name" >Escalope Plate</span>
+                            <span class="item-price" data-original-price="630000">630000 LBP</span>
+                            <p class="item-description">3-4 pcs, coleslaw, pickles, french fries, sauce.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Crispy Plate">
+                        <div class="item-details">
+                            <span class="item-name" >Crispy Plate</span>
+                            <span class="item-price" data-original-price="630000">630000 LBP</span>
+                            <p class="item-description">6 pcs, cheddar, pickles, french fries, garlic paste.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/the cook icon 1.jpg" alt="Chicken Nugget Plate">
+                        <div class="item-details">
+                            <span class="item-name">Chicken Nugget Plate</span>
+                            <span class="item-price" data-original-price="500000">500000 LBP</span>
+                            <p class="item-description">French Fries, Coleslaw, The CooK's sauce, barbeque.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/French fries 1.jpg" alt="french fries">
+                        <div class="item-details">
+                            <span class="item-name">French Fries</span>
+                            <span class="item-price" data-original-price="250000">250000 LBP</span>
+                            <p class="item-description">single.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+
+        <!-- Drinks -->
+        <section id="drinks">
+            <h2>Drinks</h2>
+            <ul>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/pepsi (330ml).jpg" alt="Pepsi">
+                        <div class="item-details">
+                            <span class="item-name">Pepsi (330ml)</span>
+                            <span class="item-price" data-original-price="90000"> 90000 LBP</span>
+                            <p class="item-description">regular / diet</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/pepsi (185ml).jpg" alt="Pepsi">
+                        <div class="item-details">
+                            <span class="item-name">Pepsi (185ml)</span>
+                            <span class="item-price" data-original-price="70000">70000 LBP</span>
+                            <p class="item-description">regular / diet</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/7up.jpg" alt="7up">
+                        <div class="item-details">
+                            <span class="item-name">7up (330ml)</span>
+                            <span class="item-price" data-original-price="90000">90000 LBP</span>
+                            <p class="item-description">regular / diet</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/7up(185ml).jpg" alt="7up">
+                        <div class="item-details">
+                            <span class="item-name">7up (185ml)</span>
+                            <span class="item-price" data-original-price="70000">70000 LBP</span>
+                            <p class="item-description">regular / diet</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/mirinda.jpg" alt="Miranda">
+                        <div class="item-details">
+                            <span class="item-name">Miranda</span>
+                            <span class="item-price" data-original-price="90000">90000 LBP</span>
+                            <!-- <p class="item-description"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/dark blue.jpg" alt="Dark Blue">
+                        <div class="item-details">
+                            <span class="item-name">Dark Blue</span>
+                            <span class="item-price" data-original-price="150000">150000 LBP</span>
+                            <!-- <p class="item-description"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/boom boom.jpg" alt="Boom Boom">
+                        <div class="item-details">
+                            <span class="item-name">Boom Boom</span>
+                            <span class="item-price" data-original-price="200000">200000 LBP</span>
+                            <!-- <p class="item-description"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/red bull.jpg" alt="Red Bull">
+                        <div class="item-details">
+                            <span class="item-name">Red Bull</span>
+                            <span class="item-price" data-original-price="280000">250000 LBP</span>
+                            <!-- <p class="item-description"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="Images/mister juicy.jpg" alt="Mr. Juicy">
+                        <div class="item-details">
+                            <span class="item-name">Mr. Juicy</span>
+                            <span class="item-price" data-original-price="50000">50000 LBP</span>
+                            <!-- <p class="item-description"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/water bottle.jpg" alt="Water">
+                        <div class="item-details">
+                            <span class="item-name">Water</span>
+                            <span class="item-price" data-original-price="40000">40000 LBP</span>
+                            <!-- <p class="item-description"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="item-container">
+                        <img src="./Images/water.jpg" alt="Water">
+                        <div class="item-details">
+                            <span class="item-name">Water</span>
+                            <span class="item-price" data-original-price="30000">30000 LBP</span>
+                            <p class="item-description">small</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>        
+
+        <div class="feedback-container">
+            <button id="feedback-button">Give Feedback</button>
+        </div>   
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Cook Restaurant. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
